@@ -9,7 +9,7 @@ import RequireAuth from './components/RequireAuth';
 import NotFound from './components/NotFound';
 //import tasksData from "./data/tasks.json";
 import { useDispatch, useSelector } from "react-redux";
-import { addTask, addTasks } from "./reducers/taskSlice";
+import { addTasks } from "./reducers/taskSlice";
 
 function App() {
   //const [tasks, setTasks] = useState(tasksData);
